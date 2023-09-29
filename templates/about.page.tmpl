@@ -1,0 +1,26 @@
+{{ template "base" .}}
+{{ define "content"}}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>About</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        fugiat mollitia a itaque illum veniam obcaecati corporis. Ducimus, omnis
+        sunt. Explicabo fuga officiis minima eum accusamus ratione sit dolor
+        quaerat?
+      </p>
+      <p>Another paragraph.</p>
+
+      <p>
+        {{ if ne (index .StringMap "remote_ip") "" }}
+        Your remote IP address is {{ index .StringMap "remote_ip" }}
+        {{ else }}
+        I don't know your IP address yet. Visit the <a href="/">home page</a> to
+        start session.
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}
