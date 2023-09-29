@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/hannasoderstromdev/go-web-2/models"
-	"github.com/hannasoderstromdev/go-web-2/pkg/config"
-	"github.com/hannasoderstromdev/go-web-2/pkg/render"
+	"github.com/hannasoderstromdev/go-hotel-booking/models"
+	"github.com/hannasoderstromdev/go-hotel-booking/pkg/config"
+	"github.com/hannasoderstromdev/go-hotel-booking/pkg/render"
 )
 
 // Repo is the repository used by the handlers

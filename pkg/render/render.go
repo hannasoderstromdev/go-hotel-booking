@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/hannasoderstromdev/go-web-2/models"
-	"github.com/hannasoderstromdev/go-web-2/pkg/config"
+	"github.com/hannasoderstromdev/go-hotel-booking/models"
+	"github.com/hannasoderstromdev/go-hotel-booking/pkg/config"
 )
 
 var app *config.AppConfig
